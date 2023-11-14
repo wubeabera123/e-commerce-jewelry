@@ -1,11 +1,13 @@
 import React from "react";
-import Navigation from "./components/Navigation";
+import Layout from "./components/Layout";
+import RandomImage from "./components/RandomImage";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-           <Navigation/>
+           <Layout/>
+           <RandomImage/>
       </header>
     </div>
   );
