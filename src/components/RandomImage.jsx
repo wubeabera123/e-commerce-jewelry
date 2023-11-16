@@ -17,7 +17,7 @@ const RandomImage = () => {
    const randomImage = images[randomIndex];
     return ( 
         <div className="image-container">
-            <img src={jewa} style={{width: "100%",height: "100vh",objectFit: "cover"}} alt="" className="background-image"/>
+            <img src={jewe} style={{width: "100%",height: "100vh",objectFit: "cover"}} alt="" className="background-image"/>
             <div className="content">
               <p style={{fontFamily: 'Roboto',fontSize: "4rem",lineHeight: "1",fontWeight: "bold"}}>Your jewelry <br /> your style </p>
               <h5>Our jewelry make you different and unique</h5>

@@ -49,8 +49,9 @@ const Layout = () => {
                        onChange={handleChange}>
                       </input>  
                         <button 
-                        class="btn btn-secondary" 
+                        class="btn" 
                         type="button" id="search-button"
+                        style={{backgroundColor:"#222222"}}
                         >
                            <i class="bi bi-search" style={{color: "#FFFDFA"}}>Search</i>
                         </button>

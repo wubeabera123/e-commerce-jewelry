@@ -46,6 +46,20 @@ code {
   justify-content: center;
   align-items: center;
 }
+.footer{
+  background-color: #222222;
+  margin-top: 6rem;
+  padding-bottom: 1rem;
+}
+.footer-line{
+  border: none;
+  border-top: 2px solid #f8f8f8;
+  width: 100%;
+  
+}
+.footer-text{
+  text-align:center ;
+}
 @media (max-width: 800px) {
    
 }

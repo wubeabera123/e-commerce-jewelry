@@ -30,7 +30,7 @@ const Gallery = () => {
             </div>
             <div className="row">
                 <div className="col-lg-12 mt-4 col-md-6 col-sm-12">
-                    <img src={gallimg4} alt="" style={{height:"41vh",width:"100%",marginTop:'',objectFit:'cover'}} />
+                    <img src={gallimg4} alt="" style={{height:"60vh",width:"100%",marginTop:'',objectFit:'cover'}} />
                 </div>
             </div>
         </div>
