@@ -71,7 +71,9 @@ const Store = () => {
                 </div>
             </div>
         </div>
-    </div> );
+        <button type="button" class="btn btn-outline-secondary mx-auto mt-5" style={{width: '200px',maxWidth: '100%',display:"flex",justifyContent:"center",alignItems: "center"}}>View all</button>
+    </div> 
+    );
 }
  
 
