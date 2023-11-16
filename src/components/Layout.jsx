@@ -20,7 +20,8 @@ const Layout = () => {
         setIsMenuOpen(!isMenuOpen);
     }
     return ( 
-        <div style={{backgroundColor: "#0F0F0F",height: "5.2rem",position: "fixed",width: "100%",background: "rgba(0, 0, 0, 0.6)"}}>
+        <div style={{backgroundColor: "#0F0F0F",height: "5.2rem",position: "fixed",width: "100%",background: "rgba(0, 0, 0, 0.6)",
+        zIndex: "3"}}>
            <Navbar className="container" expand='lg' >
               <Navbar.Brand style={{cursor: "pointer"}}><img src={jewelry} style={{width: "4rem",height: "4rem",borderRadius: "10px"}}/></Navbar.Brand>
               <Navbar.Toggle   aria-controls="basic-navbar-nav" style={{backgroundColor: "#FFFDFA"}}/>

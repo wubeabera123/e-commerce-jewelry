@@ -18,9 +18,34 @@ code {
   margin-top: 2px;
   color: rgba(0, 0, 0, 0.8);
   
+}.image-container {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  z-index: 1;
+  color: #0F0F0F;
+}
+.about{
+  background-color: #FFFDFA;
+}
+#playPauseButton {
+  position: absolute;
+  top: 320%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 48px;
+  font-weight: bold;
+}
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 800px) {
-   .input-group{
-     width: 10rem;
-   }
+   
 }
