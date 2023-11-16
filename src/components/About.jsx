@@ -21,7 +21,7 @@ const About = () => {
                            <img src={aboutimg2} alt="" style={{height: "69.5vh",width:'100%',objectFit: 'cover',marginTop: "0.5rem"}}/>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-5">
                     <div className="col-lg-6 col-sm-6 col-md-6">
                         <img src={aboutimg3} alt="" style={{height: "69.4vh",width:'100%',objectFit: 'cover',marginTop: "0.5rem"}}/>
                     </div>

@@ -1,8 +1,6 @@
 import React from "react";
 import  { useState, useRef } from 'react';
 import jewvideo from '../resources/jewvideo.mp4';
-import play from '../resources/play.png';
-import pause from '../resources/pause.png';
 //import { FaPlay, FaPause } from 'react-icons/fa';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
