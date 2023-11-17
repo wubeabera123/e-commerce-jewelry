@@ -23,7 +23,7 @@ const Store = () => {
                    </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-4">
-                   <div className="card" style={{width: "100%"}}>
+                   <div className="card a" style={{width: "100%"}}>
                        <img src={cardimg2} style={{height: "65vh",objectFit: "cover"}} alt="" />
                        <div className="card-body">
                            <h4 className="card-title">Earrings "Moon"</h4>
@@ -32,7 +32,7 @@ const Store = () => {
                    </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-4">
-                   <div className="card" style={{width: "100%"}}>
+                   <div className="card b" style={{width: "100%"}}>
                        <img src={cardimg3} style={{height: "65vh",objectFit: "cover"}} alt="" />
                        <div className="card-body">
                            <h4 className="card-title">Earrings "Moon"</h4>
@@ -43,7 +43,7 @@ const Store = () => {
             </div>
             <div className="row mt-5">
                 <div className="col-lg-4 col-md-6 col-sm-4">
-                   <div className="card" style={{width: "100%"}}>
+                   <div className="card d" style={{width: "100%"}}>
                        <img src={cardimg4} style={{height: "65vh",objectFit: "cover"}} alt="" />
                        <div className="card-body">
                            <h4 className="card-title">Earrings "Moon"</h4>
@@ -52,7 +52,7 @@ const Store = () => {
                    </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-4">
-                   <div className="card" style={{width: "100%"}}>
+                   <div className="card e" style={{width: "100%"}}>
                        <img src={cardimg5} style={{height: "65vh",objectFit: "cover"}} alt="" />
                        <div className="card-body">
                            <h4 className="card-title">Earrings "Moon"</h4>
@@ -61,7 +61,7 @@ const Store = () => {
                    </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-4">
-                   <div className="card" style={{width: "100%"}}>
+                   <div className="card f" style={{width: "100%"}}>
                        <img src={cardimg6} style={{height: "65vh",objectFit: "cover"}} alt="" />
                        <div className="card-body">
                            <h4 className="card-title">Earrings "Moon"</h4>

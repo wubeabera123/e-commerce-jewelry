@@ -23,7 +23,7 @@ const Layout = () => {
         <div style={{backgroundColor: "#0F0F0F",height: "5.2rem",position: "fixed",width: "100%",background: "rgba(0, 0, 0, 0.6)",
         zIndex: "3"}}>
            <Navbar className="container" expand='lg' >
-              <Navbar.Brand style={{cursor: "pointer"}}><img src={jewelry} style={{width: "4rem",height: "4rem",borderRadius: "10px"}}/></Navbar.Brand>
+              <Navbar.Brand style={{cursor: "pointer"}}><img src={jewelry} style={{width: "4rem",height: "4rem",borderRadius: "10px",opacity:"0.8"}}/></Navbar.Brand>
               <Navbar.Toggle   aria-controls="basic-navbar-nav" style={{backgroundColor: "#FFFDFA"}}/>
               <Navbar.Collapse className=" justify-content-center" id="basic-navbar-nav"> 
                 <div onClick={toggleMenu}>
