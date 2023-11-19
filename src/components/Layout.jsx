@@ -19,6 +19,9 @@ const Layout = () => {
     const toggleMenu = () =>{
         setIsMenuOpen(!isMenuOpen);
     }
+    useEffect(() =>{
+      document.title = "Jewelry | Home"
+    },[]);
     return ( 
         <div style={{backgroundColor: "#0F0F0F",height: "5.2rem",position: "fixed",width: "100%",background: "rgba(0, 0, 0, 0.6)",
         zIndex: "3"}}>
@@ -32,7 +35,9 @@ const Layout = () => {
                     <Nav.Link style={{fontWeight: "bold",fontFamily: "",color: "#FFFDFA",marginRight: "20px"}}>Home</Nav.Link>
                     <Nav.Link style={{fontWeight: "bold",fontFamily:"'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important",color: "#FFFDFA",marginRight: "20px"}}>About</Nav.Link>
                     <Nav.Link style={{fontWeight: "bold",color: "#FFFDFA",marginRight: "20px"}}>Catalog</Nav.Link>
-                    <Nav.Link style={{fontWeight: "bold",color: "#FFFDFA",marginRight: "20px"}}>Contacts</Nav.Link>
+                    <Nav.Link onClick={()=>{
+                        window.scrollTo(0,document.body.scrollHeight || document.documentElement.scrollHeight);
+                    }} style={{fontWeight: "bold",color: "#FFFDFA",marginRight: "20px"}}>Contacts</Nav.Link>
                   </Nav>
                  </div>
                 </div>

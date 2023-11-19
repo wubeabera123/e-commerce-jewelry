@@ -14,7 +14,7 @@ const About = () => {
                            <p style={{fontFamily:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorum aspernatur ducimus nisi sit qui quia reiciendis veniam odio dolorem sequi, eveniet, blanditiis accusantium molestias placeat rem non voluptatum ratione.</p>
                         </div>
                         <div className="row">
-                           <img src={aboutimg1} alt="" />
+                           <img src={aboutimg1} alt="" style={{height:'58.3vh'}} />
                         </div>
                     </div>
                     <div className="col-lg-6 col-sm-6 col-md-6">
@@ -30,7 +30,7 @@ const About = () => {
                             <p style={{fontFamily:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorum aspernatur ducimus nisi sit qui quia reiciendis veniam odio dolorem sequi, eveniet, blanditiis accusantium molestias placeat rem non voluptatum ratione.</p>
                         </div>
                         <div className="row">
-                            <img src={aboutimg4} alt="" />
+                            <img src={aboutimg4} alt="" style={{height:'58vh'}}/>
                        </div>
                     </div>
                 </div>

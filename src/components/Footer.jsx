@@ -1,7 +1,36 @@
 import React from "react";
+import {useState, useEffect} from 'react';
 import jewelry from '../resources/jewelry.png';
 
 const Footer = () => {
+   const [isVisible, setIsVisible] = useState(false);
+
+   // Show or hide the button based on scroll position
+   const handleScroll = () => {
+     const scrollTop = window.pageYOffset;
+     if (scrollTop > 100) {
+       setIsVisible(true);
+     } else {
+       setIsVisible(false);
+     }
+   };
+ 
+   // Add event listener for scroll event
+   useEffect(() => {
+     window.addEventListener('scroll', handleScroll);
+     return () => {
+       window.removeEventListener('scroll', handleScroll);
+     };
+   }, []);
+ 
+   // Scroll to top when the button is clicked
+   const scrollToTop = () => {
+     window.scrollTo({
+       top: 0,
+       behavior: 'smooth',
+     });
+   };
+
     return (
        <div className="footer">
          <div className="footer-text">
@@ -23,6 +52,12 @@ const Footer = () => {
           </div>
          <hr className="footer-line" />
          <p style={{color:"#F8F8F8",textAlign:"center"}}>@2023 created by Wubeshet Abera. All rights reserved. <br /></p>
+         <button
+           className={`scroll-to-top ${isVisible ? 'show' : 'hide'}`}
+           onClick={scrollToTop}
+           style={{position:"fixed",bottom:"20px",right:"20px",zIndex:"9999"}}>
+         Scroll to Top
+         </button>
        </div> 
        );
 }
