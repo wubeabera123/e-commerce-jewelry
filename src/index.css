@@ -18,10 +18,7 @@ code {
   margin-top: 2px;
   color: rgba(0, 0, 0, 0.8);
   
-}.image-container {
-  position: relative;
 }
-
 .content {
   position: absolute;
   top: 30%;
